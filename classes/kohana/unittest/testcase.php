@@ -23,7 +23,7 @@ abstract class Kohana_Unittest_TestCase extends PHPUnit_Framework_TestCase {
 	 * testcases
 	 * @var Kohana_Unittest_Helpers
 	 */
-	protected $_helpers = NULL;
+	public $_helpers = NULL;
 
 	/**
 	 * A default set of environment to be applied before each test
